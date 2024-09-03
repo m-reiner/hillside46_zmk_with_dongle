@@ -1,0 +1,12 @@
+file_format: "1"
+id: hillside46
+name: Hillside46
+type: shield
+url: https://github.com/m-reiner/zmk-config-2/
+requires: [pro_micro,seeed_xiao]
+features:
+  - keys
+siblings:
+  - hillside46_dongle
+  - hillside46_left
+  - hillside46_right
