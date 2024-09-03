@@ -12,13 +12,6 @@
 #     shield: reviung41
 #
 ---
-
-#board: [ "seeeduino_xiao_ble" ]
-#shield: [ "hillside46_dongle" ]
-
-#board: [ "nice_nano_v2" ]
-#shield: [ "hillside46_left", "hillside46_right" ]
-
 include:
   - board: seeeduino_xiao_ble
     shield: hillside46_dongle
@@ -26,26 +19,3 @@ include:
     shield: hillside46_left
   - board: nice_nano_v2
     shield: hillside46_right
-
-#include:
-
-# Hillside 46
-#   Comment out below if you do not have this board, to save build time
-#  - board: nice_nano_v2
-#    shield: hillside46_left
-#  - board: nice_nano_v2
-#    shield: hillside46_right
-
-# Hillside 48
-#   Comment out below if you do not have this board, to save build time
-#  - board: nice_nano_v2
-#    shield: hillside48_left
-#  - board: nice_nano_v2
-#    shield: hillside48_right
-
-# Hillside 52
-#   Comment out below if you do not have this board, to save build time
-#  - board: nice_nano_v2
-#    shield: hillside52_left
-#  - board: nice_nano_v2
-#    shield: hillside52_right
