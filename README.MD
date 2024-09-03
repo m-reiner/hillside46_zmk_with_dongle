@@ -4,7 +4,14 @@
 
 **Hillside** is a collection of keyboards featuring 46, 48, 52, or 56 keys that were originally designed by [[mmccoyd]](https://github.com/mmccoyd/hillside).  Please check out their repo and Wiki for more information regarding ordering PCBs, building the keyboard, and so on.
 
-This repo focuses on the 46-key variant of the Hillside ([[mmccoyd/hillside46]](https://github.com/mmccoyd/hillside/tree/main/hillside46).  Specifically, this is a version that leverages ZMK firmware for wireless commumnication between the two halves of the split keyboard with the addition of a third microcontroller (MCU) to act as a "dongle" that can be plugged into USB (or connected via Bluetooth if externally powered) to a computer and will then communicate via Bluetooth Low Energy (BLE) to the two keyboard halves.
+This repo focuses on the 46-key variant of the Hillside ([[mmccoyd/hillside46]](https://github.com/mmccoyd/hillside/tree/main/hillside46).  
+
+Specifically, this is a version that leverages ZMK firmware for wireless commumnication between the two halves of the split keyboard with the addition of a third microcontroller (MCU) to act as a "dongle" that can be plugged into USB to a computer (or connected via Bluetooth if externally powered) and will then communicate via Bluetooth Low Energy (BLE) to the two keyboard halves.
+
+I am pursuing a wireless setup with a dongle for two primary reasons:
+- My place of work has Bluetooth completely locked down, so creating a dongle MCU allows me to retain a completely wireless setup for the keyboard halves.
+- Even when on a system where Bluetooth is not restricted, the keyboard half playing the "central" role (usually the left half) generally burns through battery life far faster than the non-central side.
+    - Using a third MCU in the central role and (presumably) plugging it directly into the USB port of the machine with which you want to use your keyboard maximizes the battery life of both halves of the keyboard since they each just use a BLE connection to the "dongle" MCU.
 
 Current build status:
 
