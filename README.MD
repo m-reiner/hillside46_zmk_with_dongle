@@ -8,7 +8,7 @@ Build status:
 
 This is the ZMK firmware for my versionof the Hillside46 split keyboard, including my modifications for use with a third MCU to be used as a "dongle".
 
-The keymap definition file can be found in: [[.config/boards/shields/hillside46/hillside46.keymap]](https://www.github.com/m-reiner/config/boards/shields/hillside46/hillside46.keymap).
+The keymap definition file can be found in: [[.config/boards/shields/hillside46/hillside46.keymap]](.config/boards/shields/hillside46/hillside46.keymap).
 
 As with all ZMK setups, pushing changes to any of the files in this repo will automatically trigger a job to build the firmware for all three boards (dongle, left keyboard side, right keyboard side).
 
