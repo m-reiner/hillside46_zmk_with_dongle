@@ -3,7 +3,7 @@ id: hillside46
 name: Hillside46
 type: shield
 url: https://github.com/m-reiner/zmk-config-2/
-requires: [pro_micro,seeed_xiao]
+requires: [pro_micro]
 features:
   - keys
 siblings:
