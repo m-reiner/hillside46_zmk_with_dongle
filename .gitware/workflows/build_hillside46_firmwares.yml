@@ -1,0 +1,16 @@
+on: 
+  push: 
+    paths: 
+      - 'config/**'
+  pull_request: 
+    paths: 
+      - 'config/**'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      config_path: 'config'
+      build_matrix_path: 'config/hillside46_builds.yaml'
+      archive_name: 'hillside-firmware'
