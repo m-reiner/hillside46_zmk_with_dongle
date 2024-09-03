@@ -2,7 +2,7 @@
 
 Build status:
 
-[![.github/workflows/build_hillside46_firmwares.yml](https://github.com/m-reiner/hillside46_zmk_with_dongle/actions/workflows/build_hillside46_firmwares.yml/badge.svg)](https://github.com/m-reiner/hillside46_zmk_with_dongle/actions/workflows/build_hillside46_firmwares.yml)
+[![.github/workflows/build_hillside46_firmware.yml](https://github.com/m-reiner/hillside46_zmk_with_dongle/actions/workflows/build_hillside46_firmware.yml/badge.svg)](https://github.com/m-reiner/hillside46_zmk_with_dongle/actions/workflows/build_hillside46_firmware.yml)
 
 **Hillside** is a collection of different keyboards and keypads that were originally designed by [[mmccoyd]](https://github.com/mmccoyd/hillside). This repo contains ZMK firmware for the smallest version, the [[mmccoyd/hillside46]](https://github.com/mmccoyd/hillside).  Please check out their original repo to find the PCB layouts and review their WiKi for build and other instructions if you want to make one of your own.
 
