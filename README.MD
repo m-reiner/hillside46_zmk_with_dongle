@@ -1,6 +1,6 @@
 # Hillside 46 Ergonomic Keyboard with Dongle
 
-(https://github.com/m-reiner/hillside46_zmk_with_dongle/blob/main/images/hillside46_wireless.jpeg)
+![Hillside 46](https://github.com/m-reiner/hillside46_zmk_with_dongle/blob/main/images/hillside46_wireless.jpeg)
 
 **Hillside** is a collection of keyboards featuring 46, 48, 52, or 56 keys that were originally designed by [[mmccoyd]](https://github.com/mmccoyd/hillside).  Please check out their repo and Wiki for more information regarding ordering PCBs, building the keyboard, and so on.
 
