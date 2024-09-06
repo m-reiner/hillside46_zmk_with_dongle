@@ -2,9 +2,7 @@
 
 ![Hillside 46](https://github.com/m-reiner/hillside46_zmk_with_dongle/blob/main/images/hillside46_keyboard_halves_with_dongle.jpeg)
 
-**Hillside** is a collection of keyboards featuring 46, 48, 52, or 56 keys that were originally designed by [[mmccoyd]](https://github.com/mmccoyd/hillside).  Please check out their repo and Wiki for more information regarding ordering PCBs, building the keyboard, and so on.
-
-This repo focuses on the 46-key variant of the Hillside ([[mmccoyd/hillside46]](https://github.com/mmccoyd/hillside/tree/main/hillside46).  
+**Hillside** is a collection of keyboards featuring 46, 48, 52, or 56 keys that were originally designed by [[mmccoyd]](https://github.com/mmccoyd/hillside).  Please check out their repo and Wiki for more information regarding ordering PCBs, building the keyboard, and so on.  This repo focuses on the 46-key variant of the Hillside [[mmccoyd/hillside46]](https://github.com/mmccoyd/hillside/tree/main/hillside46).  
 
 Specifically, this is a version that leverages ZMK firmware for wireless commumnication between the two halves of the split keyboard with the addition of a third microcontroller (MCU) to act as a "dongle" that can be plugged into USB to a computer (or connected via Bluetooth if externally powered) and will then communicate via Bluetooth Low Energy (BLE) to the two keyboard halves.
 
