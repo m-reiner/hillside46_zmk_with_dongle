@@ -28,7 +28,3 @@ After making a change to a file, you can find the firmware build status and down
 - Click on the build link next to the green checkbox
 - Download the artifact file with the firmware
 - See Installing The Firmware for more details from there.
-
-My Hillside keymap can be found in:
-
-    ./config/hillside46.keymap
