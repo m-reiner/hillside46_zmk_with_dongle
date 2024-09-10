@@ -29,7 +29,7 @@ After making a change to a file, you can find the firmware build status and down
 
 ## Case and Tenting
 
-I created a very simple case for the Seeed Stuudio which can be found [[here]](https://www.printables.com/model/992291-seeed-studio-xiao-nrf52840-case-with-lid).
+I created a very simple case for the Seeed Studio XIAO nRF52840, which can be found [[here]](https://www.printables.com/model/992291-seeed-studio-xiao-nrf52840-case-with-lid).
 
 ![Seeed Studio XIAO nRF52840 Case](https://raw.githubusercontent.com/m-reiner/hillside46_zmk_with_dongle/main/images/seeed_studio_xiao_nrf52840_case.jpeg)
 
