@@ -1,0 +1,26 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/reset.h>
+
+/ {
+    behaviors {
+        // Behavior can be invoked on peripherals, so name must be <= 8 characters.
+        sys_reset: sysreset {
+            compatible = "zmk,behavior-reset";
+            #binding-cells = <0>;
+            display-name = "Reset";
+        };
+
+        // Behavior can be invoked on peripherals, so name must be <= 8 characters.
+        bootloader: bootload {
+            compatible = "zmk,behavior-reset";
+            type = <RST_UF2>;
+            #binding-cells = <0>;
+            display-name = "Bootloader";
+        };
+    };
+};

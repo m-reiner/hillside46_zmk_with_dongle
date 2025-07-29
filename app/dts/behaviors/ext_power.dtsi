@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    behaviors {
+        // Behavior can be invoked on peripherals, so name must be <= 8 characters.
+        ext_power: extpower {
+            compatible = "zmk,behavior-ext-power";
+            #binding-cells = <1>;
+            display-name = "External Power";
+        };
+    };
+};
