@@ -1,0 +1,36 @@
+fail_fast: false
+repos:
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.1
+    hooks:
+      - id: remove-tabs
+        exclude: "vendor-prefixes\\.txt$|.git/COMMIT_EDITMSG"
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v18.1.8
+    hooks:
+      - id: clang-format
+        types_or: [c++, c]
+        args:
+          - -i
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: 787fb9f542b140ba0b2aced38e6a3e68021647a3
+    hooks:
+      - id: prettier
+        exclude: |
+          (?x)^(
+              .git/COMMIT_EDITMSG|
+              CHANGELOG.md|
+              .release-please-manifest.json
+          )$
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
+    hooks:
+      - id: gitlint
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-shebang-scripts-are-executable
+        exclude: "\\.mustache$"
