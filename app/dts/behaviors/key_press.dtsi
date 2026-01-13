@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/behaviors.h>
+
+/ {
+    behaviors {
+#if ZMK_BEHAVIOR_OMIT(KP)
+    /omit-if-no-ref/
+#endif
+        kp: key_press {
+            compatible = "zmk,behavior-key-press";
+            #binding-cells = <1>;
+            display-name = "Key Press";
+        };
+    };
+};
